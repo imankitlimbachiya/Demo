@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_margin="@dimen/_8sdp">
+
+        <TextView
+            android:id="@+id/txtIndex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18ssp"
+            android:textStyle="bold"
+            tools:text="1" />
+
+    </RelativeLayout>
+
+</layout>

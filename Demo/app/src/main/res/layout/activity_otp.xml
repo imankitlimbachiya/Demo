@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.OtpActivity">
+
+    <data />
+
+    <LinearLayout
+        android:id="@+id/lytOtpLinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtOtpOne"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/bg_demo_8"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/white"
+            android:textCursorDrawable="@drawable/bg_cursor"
+            android:textSize="@dimen/_16ssp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/edtOtpTwo"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/bg_demo_8"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/white"
+            android:textCursorDrawable="@drawable/bg_cursor"
+            android:textSize="@dimen/_16ssp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/edtOtpThree"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/bg_demo_8"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/white"
+            android:textCursorDrawable="@drawable/bg_cursor"
+            android:textSize="@dimen/_16ssp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/edtOtpFour"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/bg_demo_8"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:imeOptions="actionDone|actionGo"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/white"
+            android:textCursorDrawable="@drawable/bg_cursor"
+            android:textSize="@dimen/_16ssp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+</layout>

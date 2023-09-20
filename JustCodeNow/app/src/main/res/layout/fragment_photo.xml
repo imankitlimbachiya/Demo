@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragments.PhotoFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include
+            android:id="@+id/actionBar"
+            layout="@layout/layout_action_bar" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/actionBar"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            tools:itemCount="5"
+            app:spanCount="3"
+            tools:listitem="@layout/item_photo"/>
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/cpiLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_16sdp"
+            android:indeterminate="true"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            app:hideAnimationBehavior="inward"
+            app:indicatorColor="@color/black"
+            app:indicatorDirectionCircular="clockwise"
+            app:showAnimationBehavior="outward"
+            app:trackColor="@color/black"
+            app:trackThickness="2dp" />
+
+    </RelativeLayout>
+
+</layout>

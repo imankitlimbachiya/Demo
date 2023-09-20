@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data />
+
+    <RelativeLayout
+        android:id="@+id/lytRelative"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_margin="@dimen/_8sdp"
+        android:background="@drawable/bg_gradient"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/lblTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_toStartOf="@id/imgGo"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_medium"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            tools:text="Title" />
+
+        <TextView
+            android:id="@+id/lblDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lblTitle"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:layout_toStartOf="@id/imgGo"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_medium"
+            android:includeFontPadding="false"
+            android:maxLines="3"
+            android:minLines="1"
+            android:singleLine="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10ssp"
+            tools:text="Description" />
+
+        <ImageView
+            android:id="@+id/imgGo"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:clickable="true"
+            android:contentDescription="@string/search"
+            android:focusable="true"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/ic_go" />
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.PostActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/actionBar"
+            layout="@layout/layout_action_bar" />
+
+        <TextView
+            android:id="@+id/lblTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_below="@id/actionBar"
+            android:includeFontPadding="false"
+            tools:text="Just Code Now"
+            android:background="@color/bg"
+            android:textAllCaps="false"
+            android:layout_margin="@dimen/_8sdp"
+            android:padding="@dimen/_8sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvComment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/lblTitle"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="5"
+            tools:listitem="@layout/item_comment"/>
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/cpiLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_16sdp"
+            android:indeterminate="true"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            app:hideAnimationBehavior="inward"
+            app:indicatorColor="@color/black"
+            app:indicatorDirectionCircular="clockwise"
+            app:showAnimationBehavior="outward"
+            app:trackColor="@color/black"
+            app:trackThickness="2dp" />
+
+    </RelativeLayout>
+
+</layout>

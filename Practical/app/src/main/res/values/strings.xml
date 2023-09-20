@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Practical</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="no_internet">No Internet</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="or">OR</string>
+    <string name="no_account_create_one">No account? Create one.</string>
+    <string name="logout">Logout</string>
+</resources>

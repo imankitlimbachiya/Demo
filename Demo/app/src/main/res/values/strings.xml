@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="no_internet">No Internet</string>
+    <string name="home">Home</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="scan">Scan</string>
+    <string name="scan_description">Should use at least one Should use at least one</string>
+    <string name="collection">Collection</string>
+    <string name="profile">Profile</string>
+    <string name="notification">Notification</string>
+    <string name="search">Search</string>
+    <string name="mail">Mail</string>
+    <string name="see_all">See All</string>
+    <string name="my_dashboard">My Dashboard</string>
+    <string name="available_to_buy">Available to Buy</string>
+    <string name="sell">Sell</string>
+    <string name="sell_description">Should use at least one Should use at least one</string>
+    <string name="one">one</string>
+    <string name="two">two</string>
+    <string name="three">three</string>
+    <string name="four">four</string>
+    <string name="data_successfully_loaded">Data Successfully Loaded</string>
+</resources>

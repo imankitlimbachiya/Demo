@@ -1,0 +1,41 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/drawable/bg_cursor.xml" value="0.134" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/drawable/bg_demo_8.xml" value="0.134" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/drawable/bg_demo_bottom_left_right_16.xml" value="0.134" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/drawable/bg_demo_bottom_left_right_24.xml" value="0.134" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/drawable/bg_gradient.xml" value="0.134" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/drawable/ic_go.xml" value="0.134" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/drawable/ic_mail.xml" value="0.134" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/drawable/ic_nav_un_collection.xml" value="0.134" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/drawable/ic_nav_un_home.xml" value="0.134" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/drawable/ic_nav_un_profile.xml" value="0.134" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/drawable/ic_nav_un_scan.xml" value="0.134" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/drawable/ic_nav_un_wishlist.xml" value="0.134" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/drawable/ic_notification.xml" value="0.134" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/drawable/ic_search.xml" value="0.134" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/layout/activity_demo.xml" value="0.2453125" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/layout/activity_home.xml" value="0.2453125" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/layout/activity_otp.xml" value="0.2453125" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/layout/activity_slash.xml" value="0.2453125" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/layout/fragment_home.xml" value="0.2453125" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/layout/item_available.xml" value="0.2453125" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/layout/layout_action_bar.xml" value="0.2453125" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/layout/layout_edt.xml" value="0.2453125" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/layout/layout_home_data_block.xml" value="0.264" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/layout/layout_option.xml" value="0.2453125" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/layout/layout_otp.xml" value="0.2453125" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/menu/menu_bottom_nav.xml" value="0.2453125" />
+        <entry key="..\:/Projects/DemoProject/Demo/app/src/main/res/menu/menu_month.xml" value="0.2453125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

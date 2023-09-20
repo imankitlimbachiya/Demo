@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragments.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/actionBar"
+            layout="@layout/layout_action_bar" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/lytConstraint"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_110sdp"
+            android:background="@drawable/bg_demo_bottom_left_right_24"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/actionBar">
+
+            <include
+                android:id="@+id/optionScan"
+                layout="@layout/layout_option"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_80sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.48" />
+
+            <include
+                android:id="@+id/optionSell"
+                layout="@layout/layout_option"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_80sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.48" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <include
+            android:id="@+id/available"
+            layout="@layout/layout_home_data_block"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lytConstraint" />
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/cpiLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_16sdp"
+            android:indeterminate="true"
+            android:visibility="gone"
+            app:hideAnimationBehavior="inward"
+            app:indicatorColor="@color/black"
+            app:indicatorDirectionCircular="clockwise"
+            app:layout_constraintBottom_toBottomOf="@id/available"
+            app:layout_constraintLeft_toLeftOf="@id/available"
+            app:layout_constraintRight_toRightOf="@id/available"
+            app:layout_constraintTop_toTopOf="@id/available"
+            app:showAnimationBehavior="outward"
+            app:trackColor="@color/black"
+            app:trackThickness="2dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

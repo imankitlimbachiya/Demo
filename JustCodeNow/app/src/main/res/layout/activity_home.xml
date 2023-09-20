@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.HomeActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="?attr/actionBarSize" />
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="@dimen/_1sdp"
+            app:contentInsetEnd="0dp"
+            app:contentInsetStart="0dp"
+            tools:ignore="BottomAppBar">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/navigation"
+                style="@style/BottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_margin="0dp"
+                android:background="@color/white"
+                android:padding="0dp"
+                app:itemHorizontalTranslationEnabled="false"
+                app:itemIconSize="@dimen/_16sdp"
+                app:itemPaddingTop="@dimen/_4sdp"
+                app:itemTextAppearanceActive="@style/NavigationTextSelected"
+                app:itemTextAppearanceInactive="@style/NavigationText"
+                app:labelVisibilityMode="labeled"
+                app:menu="@menu/menu_bottom_nav" />
+
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

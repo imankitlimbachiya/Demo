@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Logical Task</string>
+    <string name="please_enter_row">Please enter row</string>
+    <string name="please_enter_colum">Please enter colum</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+</resources>
