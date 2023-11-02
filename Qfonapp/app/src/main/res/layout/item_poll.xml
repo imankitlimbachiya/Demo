@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:background="@drawable/bg_poll"
+        android:orientation="vertical"
+        android:padding="@dimen/_8sdp">
+
+        <TextView
+            android:id="@+id/txtPollTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_medium"
+            android:includeFontPadding="false"
+            android:singleLine="false"
+            android:text="@string/answer_option"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="5"
+            tools:listitem="@layout/item_poll_option" />
+
+    </LinearLayout>
+
+</layout>

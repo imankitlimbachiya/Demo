@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Qfonapp</string>
+    <string name="app_name_full">Qfonapp pvt. ltd.</string>
+    <string name="no_internet">No Internet</string>
+    <string name="current_polls">Current Polls</string>
+    <string name="history">History</string>
+    <string name="back">Back</string>
+    <string name="create_poll">Create Poll</string>
+    <string name="poll_question">Poll Question</string>
+    <string name="ask_a_question">Ask a question</string>
+    <string name="answer_option">Answer option</string>
+    <string name="answer_option_hint">You can add 5 more option</string>
+    <string name="you_can_add">You can add</string>
+    <string name="more_option">more option</string>
+    <string name="you_can_not_add_more_option">you can not add more option, max option is 5</string>
+    <string name="you_have_to_add_min_two_option">you have to add min two option</string>
+    <string name="add_option">Add option</string>
+    <string name="create">Create</string>
+    <string name="please_enter_option">Please enter option</string>
+    <string name="current_poll_error">The polling ground await your question.</string>
+    <string name="history_poll_error">No history available. Contribute to polls and see your journey here.</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <FrameLayout
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="?attr/actionBarSize" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabAddPoll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_marginEnd="@dimen/_32sdp"
+                android:background="@color/white"
+                android:src="@drawable/ic_add_poll"
+                android:backgroundTint="@color/white"
+                android:layout_marginBottom="@dimen/_68sdp"
+                android:contentDescription="@string/app_name"
+                android:elevation="@dimen/_10sdp"
+                app:elevation="@dimen/_10sdp"
+                app:fabSize="auto" />
+
+            <com.google.android.material.bottomappbar.BottomAppBar
+                android:id="@+id/bottomAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_44sdp"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/_1sdp"
+                app:contentInsetEnd="0dp"
+                app:contentInsetStart="0dp"
+                tools:ignore="BottomAppBar">
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/navigation"
+                    style="@style/BottomNavigationView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="0dp"
+                    android:background="@color/white"
+                    android:padding="0dp"
+                    app:elevation="@dimen/_10sdp"
+                    app:itemHorizontalTranslationEnabled="false"
+                    app:itemIconSize="@dimen/_16sdp"
+                    app:itemPaddingTop="@dimen/_4sdp"
+                    app:labelVisibilityMode="labeled"
+                    app:menu="@menu/menu_bottom_nav" />
+
+            </com.google.android.material.bottomappbar.BottomAppBar>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </RelativeLayout>
+
+</layout>
